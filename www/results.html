@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Take a Hike </title>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script src = "resultScript.js"></script>
+<link href = "https://fonts.googleapis.com/css?family=Amatic+SC" rel = 'stylesheet'>
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+  <h2>Access Hike Info</h2>
+  <p>Enter Hike ID</p>
+  <input type="text" id="idKey"></input>
+  <br><br>
+  <button onclick="loadData()">Load Data!</button>
+  <br>
+  <p id="loadLength">Length will display here</p>
+  <p id = "loadName">Name will display here</p>

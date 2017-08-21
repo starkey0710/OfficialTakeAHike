@@ -1,0 +1,45 @@
+body {
+    background-image: url("Mt_Rainier.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-size: 800%;
+    color: RGB(250, 250, 250);
+    margin:189px 300px ;
+    font-family: "Amatic SC", cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: #8D9092;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 3px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #D1D3D4;
+}
