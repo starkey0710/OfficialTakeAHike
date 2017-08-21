@@ -16,21 +16,29 @@
   function storeData(){
     var key = document.getElementById('key').value;
     var val = document.getElementById('value').value;
-    database.ref("users/" + key).set({password : val});
-    window.location.href = "index.html";
+    var toBeDisplayed = "";
+    if ((key != "") && (val != "")) {
+      database.ref("users/" + key).set({password : val});
+      toBeDisplayed = "SUCCESS";
+      window.location.href = "index.html";
+    } else {
+      //fill out all fields!
+      toBeDisplayed = "please fill out all fields";
+    }
+    document.getElementById('message').innerHTML = toBeDisplayed;
   }
 
   function signIn(){
     var key = document.getElementById('loadKey').value;
     var pass = document.getElementById('loadVal').value;
-    console.log(pass)
+    console.log(pass);
     database.ref("users/" + key).once('value').then(function(snapshot){
       var json = snapshot.val();
       var toBeDisplayed = "";
       if (json != null) {
         var password = snapshot.val().password;
         if (password === pass){
-          toBeDisplayed = "SUCCESS"
+          toBeDisplayed = "SUCCESS";
           sessionStorage.setItem("username", key);
           window.location.href = "home.html";
         } else {

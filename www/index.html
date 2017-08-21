@@ -5,7 +5,9 @@
 <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 <script src = "loginScript.js"></script>
 <link href = "https://fonts.googleapis.com/css?family=Amatic+SC" rel = 'stylesheet'>
-<link rel="stylesheet" type="text/css" href="home.css">
+<link href = "https://fonts.googleapis.com/css?family=Comfortaa" rel = 'stylesheet'>
+<link href = "https://fonts.googleapis.com/css?family=Megrim" rel = 'stylesheet'>
+<link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
   <!--<h2>To Store</h2>
@@ -20,14 +22,14 @@
 
   <button onclick="window.location.href='create.html'">CREATE ACCOUNT</button>
 
-  <h2>Take A Hike</h2>
-  <p>Enter USER</p>
-  <input type="text" id="loadKey"></input>
-  <br>
-  <p>Enter PASS</p>
-  <input type="text" id="loadVal"></input>
+  <h1>Take A Hike</h1>
+  <p>username
+  <input type="text" id="loadKey"></input></p>
+  <p>password
+  <input type="password" id="loadVal"></input></p>
   <br><br>
-  <button onclick="signIn()">LOG IN</button>
+
+  <button onclick="signIn()" class = "button">LOG IN</button>
   <br>
   <p id="loadValue">Value will display here</p>
 <!--
