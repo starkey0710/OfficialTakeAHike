@@ -9,13 +9,13 @@ body {
 h1 {
   font-size: 700%;
   color: RGB(255, 255, 255);
-  margin: 170px 300px ;
+  margin: 130px 300px ;
   font-family: "Megrim", cursive;
 }
 
 p {
-  font-size: 100%;
-  font-family: "Comfortaa", cursive;
+  font-size: 200%;
+  font-family: "Megrim", cursive;
   color: RGB(255, 255, 255);
 }
 
