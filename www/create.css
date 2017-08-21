@@ -14,16 +14,16 @@ h1 {
 }
 
 p {
-  font-size: 200%;
+  font-size: 120%;
   font-family: "Comfortaa", cursive;
   color: RGB(255, 255, 255);
 }
 
 #element{
-  margin: 30px 135px;
-  width:1000px;
+  margin: 50px 450px;
+  width:400px;
   color:white;
-  text-align: left;
+  text-align: center;
   font-family: "Comfortaa", cursive;
   background-color: rgb(177,156,249);
   border:white 1px solid;
@@ -72,9 +72,10 @@ li a:active {
 
 
 .button {
+  background-color: rgb(177,156,249);
   display: inline-block;
-  width: 180px;
-  padding: 15px 18px;
+  width: 100px;
+  padding: 10px 12px;
   color: white;
   border: 1.5px solid white;
   text-align: center;
@@ -82,15 +83,15 @@ li a:active {
   text-decoration: none;
   transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Comfortaa", cursive;
   margin: 4px 2px;
 }
 
 .button:hover,
 .button:active {
-  background-color: rgba(95, 126, 253, 0.4);
-  border-color: rgba(95, 126, 253, 0.2);
+  background-color: rgba(164, 139, 230, 0.7);
+  border-color: rgba(164, 139, 230, 0.8);
   transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
   color: white;
 }

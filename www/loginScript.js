@@ -23,7 +23,7 @@
       window.location.href = "index.html";
     } else {
       //fill out all fields!
-      toBeDisplayed = "please fill out all fields";
+      toBeDisplayed = "Please fill out all fields.";
     }
     document.getElementById('message').innerHTML = toBeDisplayed;
   }
