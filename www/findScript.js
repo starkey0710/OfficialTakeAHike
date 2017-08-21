@@ -11,6 +11,12 @@ firebase.initializeApp(config);
 //to use database (storing data, not files)
 var database = firebase.database();
 
+function loadData(){
+  database.ref("hikes").once('value').then(function(snapshot){
+    var json = snapshot.val();
+  });
+}
+
 function findHikes() {
   //does run
   var level = document.getElementById('theLevel').value;
@@ -19,6 +25,8 @@ function findHikes() {
   console.log("level: " + level)
   sessionStorage.setItem("region", region)
   console.log("region: " + region)
+  window.location.href = "results.html"
 
-
+//to access user's level: use sessionStorage.level
+//to access user's region: use sessionStorage.region
 }

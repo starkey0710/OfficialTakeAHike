@@ -29,13 +29,11 @@
     //json is the stored hike id
     var json = snapshot.val();
     var toBeDisplayed = "";
-    var theLength = 0;
+    var theLength =0;
     var theName = "";
-    var thePicture = "";
     if (json != null){
       theLength = snapshot.val().length;
       theName = snapshot.val().name;
-      thePicture = snapshopt.val().pic;
       toBeDisplayed = "success"
       //toBeDisplayed = snapshot.val().theVal;
     } else {
@@ -43,7 +41,6 @@
     }
     document.getElementById('loadLength').innerHTML = "Length:" + theLength;
     document.getElementById('loadName').innerHTML = "Name of Hike: " + theName;
-    document.getElementById('loadPicture').innerHTML = "Picture of Hike: " + thePicture;
   });
   }
   function chooseHikes() {
