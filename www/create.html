@@ -5,22 +5,30 @@
 <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 <script src = "loginScript.js"></script>
 <link href = "https://fonts.googleapis.com/css?family=Amatic+SC" rel = 'stylesheet'>
-<link rel="stylesheet" type="text/css" href="home.css">
+<link href = "https://fonts.googleapis.com/css?family=Comfortaa" rel = 'stylesheet'>
+<link href = "https://fonts.googleapis.com/css?family=Megrim" rel = 'stylesheet'>
+<link rel="stylesheet" type="text/css" href="create.css">
 </head>
 <body>
 
+  <ul>
+    <li><a href = home.html> Home </a></li>
+    <li><a href = about.html> About </a></li>
+    <li><a href = find.html> Find </a></li>
+    <li><a href = essentials.html> Essentials </a></li>
+  </ul>
 
-
-<h2>To Store</h2>
-<p>USERNAME</p>
-<input type="text" id="key"></input>
-<br>
-<p>PASSWORD</p>
-<input type="text" id="value"></input>
-<br><br>
-<button onclick="storeData()">CREATE</button>
-<br>
-<p id="message">Value will display here</p>
+<div id = "element">
+  <p>Username:</p>
+  <input type="text" id="key"></input>
+  <br>
+  <p>Password:</p>
+  <input type="text" id="value"></input>
+  <br><br>
+  <button onclick="storeData()">CREATE</button>
+  <br>
+  <p id="message">Value will display here</p>
+</div>
 
 </body>
 </html>
