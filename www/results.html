@@ -3,16 +3,28 @@
 <head>
 <title> Take a Hike </title>
 <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
-<script src = "resultScript.js"></script>
+<script src = "searchresults.js"></script>
 <link href = "https://fonts.googleapis.com/css?family=Amatic+SC" rel = 'stylesheet'>
 <link rel="stylesheet" type="text/css" href="home.css">
 </head>
-<body>
-  <h2>Access Hike Info</h2>
-  <p>Enter Hike ID</p>
+<body onload = "findInputInDB()">
+  <ul>
+    <li><a href = home.html> Home </a></li>
+    <li><a href = about.html> About </a></li>
+    <li><a href = find.html> Find </a></li>
+    <li><a href = essentials.html> Essentials </a></li>
+    <li style="float:right"><a href = login.html>Log In/Out</a></li>
+  </ul>
+  <h2>SEARCH RESULTS</h2>
+  <!--<p>Enter Hike ID</p>
   <input type="text" id="idKey"></input>
   <br><br>
   <button onclick="loadData()">Load Data!</button>
-  <br>
-  <p id="loadLength">Length will display here</p>
-  <p id = "loadName">Name will display here</p>
+  <br>-->
+  <!--<p id="loadLength">Length will display here</p>
+  <p id = "loadName">Name will display here</p>-->
+  <div id = "container">
+  </div>
+
+</body>
+</html>
