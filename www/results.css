@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 400%;
+  font-size: 300%;
   color: RGB(255, 255, 255);
   margin: 20px 300px ;
   font-family: "Megrim", cursive;
@@ -88,6 +88,6 @@ li a:active {
   color: white;
 }
 
-.result{
+.class{
   font-family: "Comfortaa", cursive;
 }

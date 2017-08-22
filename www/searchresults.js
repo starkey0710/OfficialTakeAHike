@@ -71,9 +71,11 @@ function addToPage(listOfHikes, id) {
     var container = document.getElementById("container");
     container.appendChild(paragraph);
   }*/
+
   var paragraph = document.createElement("p");
-  paragraph.class = "result";
   var paragraph2 = document.createElement("p");
+  paragraph.class = "result";
+  paragraph2.class = "result";
   paragraph.innerHTML = "Name of Hike: " + listOfHikes[id].name;
   paragraph2.innerHTML = "Length of Hike: " + listOfHikes[id].length;
   var container = document.getElementById("container");
