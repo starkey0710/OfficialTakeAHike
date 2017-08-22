@@ -88,6 +88,7 @@ li a:active {
   color: white;
 }
 
-.class{
+#container{
   font-family: "Comfortaa", cursive;
+  color: white;
 }
