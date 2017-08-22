@@ -27,7 +27,7 @@
   <h2>Difficulty:</h2>
   <form align = "center">
     <div>
-      <select name = "Difficulty" id = "theLevel">
+      <select style = "border-radius: 15px" name = "Difficulty" id = "theLevel">
         <option value = "Easy">Easy</option>
         <option value = "Moderate">Moderate</option>
         <option value = "Hard">Hard</option>
@@ -38,7 +38,7 @@
   <h2>Location:</h2>
   <form align = "center">
     <div>
-      <select name = "Locations" id = "theRegion">
+      <select style = "border-radius: 15px" name = "Locations" id = "theRegion">
         <option value = "Coastal">Coastal</option>
         <option value = "Southwest">Southwest</option>
         <option value = "North Puget Sound">North Puget Sound</option>
@@ -48,8 +48,9 @@
       </select>
     </div>
   </form>
+  <br>
 </div>
-<button onclick="findHikes()">Search</button>
+<button class = "button" onclick = "findHikes()" style = "position: absolute; top:480px; left: 610px">Search</button>
 <br>
 
 </body>
