@@ -7,8 +7,8 @@ body {
 }
 
 h1 {
-  font-size: 700%;
-  color: RGB(255, 255, 255);
+  font-size: 500%;
+  color: white;
   margin: 70px 300px ;
   font-family: "Megrim", cursive;
 }
@@ -16,14 +16,19 @@ h1 {
 p {
   font-size: 150%;
   font-family: "Comfortaa", cursive;
-  color: RGB(255, 255, 255);
+  color: white;
+}
+
+a {
+  font-family: "Comfortaa", cursive;
+  color: white;
 }
 
 #element{
-  margin: 30px 135px;
-  width:1000px;
+  margin: 15px 465px;
+  width:350px;
   color:white;
-  text-align: left;
+  text-align: center;
   font-family: "Comfortaa", cursive;
   background-color: rgb(177,156,249);
   border:white 1px solid;
@@ -50,6 +55,12 @@ li {
 a {
   display: block;
   padding: 3px;
+}
+
+a:hover,
+a:active{
+  transition: color 0.3s ease-in, border-color 0.3s ease-in;
+  color: rgba(95, 126, 253, 0.9);
 }
 
 li a {
@@ -89,14 +100,8 @@ li a:active {
 
 .button:hover,
 .button:active {
-  background-color: rgba(95, 126, 253, 0.4);
-  border-color: rgba(95, 126, 253, 0.2);
-  transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-  color: white;
+  background-color: rgba(95, 126, 253, 0.3);
+  border-color: rgba(95, 126, 253, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease-in, border-color 0.3s ease-in, color 0.3s ease-in;
 }
-
-
-
-
-  /*background-color: rgba(182, 170, 249, 0.8);
-  cursor: pointer;*/
