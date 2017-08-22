@@ -87,3 +87,7 @@ li a:active {
   transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
   color: white;
 }
+
+.result{
+  font-family: "Comfortaa", cursive;
+}
