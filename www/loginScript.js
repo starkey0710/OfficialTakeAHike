@@ -19,7 +19,7 @@
     var toBeDisplayed = "";
     if ((key != "") && (val != "")) {
       database.ref("users/" + key).set({password : val});
-      toBeDisplayed = "SUCCESS";
+      toBeDisplayed = "";
       window.location.href = "index.html";
     } else {
       //fill out all fields!
