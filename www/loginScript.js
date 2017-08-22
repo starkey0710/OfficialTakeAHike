@@ -42,10 +42,10 @@
           sessionStorage.setItem("username", key);
           window.location.href = "home.html";
         } else {
-          toBeDisplayed = "WRONG PASSWORD";
+          toBeDisplayed = "Wrong Password";
         }
       } else {
-        toBeDisplayed = "USERNAME NOT FOUND";
+        toBeDisplayed = "Username Not Found";
       }
       document.getElementById('loadValue').innerHTML = toBeDisplayed;
     });
