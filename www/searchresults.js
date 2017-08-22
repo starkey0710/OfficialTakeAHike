@@ -35,7 +35,6 @@ function findInputInDB(){
   });
 }
 
-/*function loadData(id){
   //key is what the user entered as the hike ID
   var key = document.getElementById('idKey').value;
   var hikesRef = database.ref("hikes/" + key)
