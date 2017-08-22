@@ -9,12 +9,12 @@ body {
 h1 {
   font-size: 600%;
   color: RGB(255, 255, 255);
-  margin: 20px 300px ;
+  margin: 5px 300px ;
   font-family: "Megrim", cursive;
 }
 
 #element{
-  margin: 50px 220px;
+  margin: 25px 250px;
   width:800px;
   color:white;
   text-align: left;
